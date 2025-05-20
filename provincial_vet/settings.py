@@ -27,7 +27,7 @@ SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'your-default-secret-key-here')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['Angebida.pythonanywhere.com']
+ALLOWED_HOSTS = ['mpvo.pythonanywhere.com']
 
 # CSRF Settings for PythonAnywhere
 CSRF_TRUSTED_ORIGINS = ['https://Angebida.pythonanywhere.com']
